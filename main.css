@@ -1,0 +1,61 @@
+/*****************
+*
+* Front-end News: Stylesheet
+*
+*   White       :#fff
+*   Indigo      :303f9f
+    Light blue  :#c5cae9
+    White       :#fff
+    Pink        :#ff4081
+    Gray (dark) :#212121
+    Gray (med)  :#727272
+    Gray (light):#b6b6b6
+*
+******************/
+
+/*-------------------
+*   Base
+--------------------*/
+
+body {
+
+}
+
+header {
+
+}
+
+h1, h2, h3, h4 {
+
+}
+
+ol {
+
+}
+
+li {
+
+}
+
+p {
+
+}
+
+a {
+
+}
+
+/* Hero */
+
+.hero {
+  background-color: #3f51b5;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
