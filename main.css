@@ -18,7 +18,7 @@
 --------------------*/
 
 body {
-  color: #212121; 
+  color: #212121;
   font-family: 'Lato', sans-serif;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -101,9 +101,31 @@ a:focus {
   margin-right: 15px;
 }
 
-/*******container
+/*******
+container
 *******/
 .container {
   margin: 0 auto;
   max-width: 800px;
+}
+
+/*******
+states
+*******/
+
+.is-liked {
+  animation: flash 2s;
+}
+
+/*******
+animation
+*******/
+
+@keyframes flash {
+  from, 50%, to {
+    opacity: 0;
+  },
+  25%, 75% {
+    opacity: 1 ;
+  }
 }
