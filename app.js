@@ -8,4 +8,11 @@ $(document).ready(function(){
     .closest('.news-item')
     .addClass('is-liked');
   });
+
+$('.js-add-link').click(function(event){
+    event.preventDefault();
+
+    $('.js-form').toggleClass('is-visible');
+  });
+
 });
